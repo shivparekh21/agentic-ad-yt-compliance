@@ -1,4 +1,4 @@
-# 🛡️ Brand Guardian AI
+# 🛡️ Agentic Youtube Ad - Compliance 
 
 An agentic AI pipeline that automatically audits video advertisements for brand compliance violations using LLMs and Azure cloud services.
 
@@ -125,7 +125,7 @@ APPLICATIONINSIGHTS_CONNECTION_STRING=
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 LANGCHAIN_API_KEY=
-LANGCHAIN_PROJECT=brand-guardian-ai
+LANGCHAIN_PROJECT=agentic-ai-yt
 ```
 
 ### Index Your Compliance Documents
@@ -215,3 +215,4 @@ brand-guardian-ai/
 - Secrets managed via `.env` (never committed to git)
 - Azure identity-based authentication via `DefaultAzureCredential`
 - App Registration with scoped Video Indexer permissions
+
